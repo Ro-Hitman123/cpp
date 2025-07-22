@@ -13,17 +13,27 @@ class Employee {
         void getData(void) {
             cout <<"The id of this employee is " << id <<  " and this is employee number " << count <<endl;
         }
+
+        static void getcount(void) {
+            // cout << id; // This will throw an error as id is not static and cannot be accessed in a static function
+            cout<< "The value of count is " << count << endl;
+        }
 };
-        int Employee:: count;
+        int Employee:: count = 100; // it will count from 100 and increment it by 1 for each object created
 
 int main() {
     Employee harry, marry, jerry;
     harry.setData();
     harry.getData();
+    Employee::getcount();
+
     marry.setData();
     marry.getData();
+    Employee::getcount();
+
     jerry.setData();
     jerry.getData();
+    Employee::getcount();
     
     return 0;
 }
