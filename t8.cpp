@@ -41,7 +41,7 @@ void binary::read(void)
 
 void binary::chk_bin(void)
 {
-    for (int i = 0; i < s.length(); i++)
+    for (int i = 0; i < 10; i++)
     {
         if (s.at(i) != '0' && s.at(i) != '1')
         {
