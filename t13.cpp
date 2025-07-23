@@ -22,8 +22,7 @@ class Complex{
 
 Complex sumComplex(Complex o1, Complex o2){
     Complex o3;
-    o3.setNumber((o1.a + o2.a), (o1.b+o2.b))
-    ;
+    o3.setNumber((o1.a + o2.a), (o1.b+o2.b));
     return o3;
 }
 
@@ -50,3 +49,5 @@ int main(){
 6. It cannot access the members directly by their names and need object_name.member_name to access any member.
 
 */
+
+
