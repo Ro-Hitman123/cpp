@@ -3,7 +3,7 @@ using namespace std;
 
 class Complex{
     // Creating a constructor
-    // COnstructor is a special member function with same name as of the class. It is used to initialize the objects of it's class
+    // Constructor is a special member function with same name as of the class. It is used to initialize the objects of it's class
     // It is automatically invoked whenever an object is created
 
     int a, b;
