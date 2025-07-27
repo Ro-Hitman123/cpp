@@ -17,8 +17,8 @@ class Complex{
 
 Complex::Complex(void) // Default constructor definition
 {
-    a= 0;
-    b= 0;
+    a= 1;
+    b= 2;
 }
 
 int main() {
