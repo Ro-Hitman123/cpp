@@ -16,12 +16,12 @@ void swap(int* a, int* b) {
 // }
 
 
-int & swapVar(int &a, int &b) {
-    int temp = a;
-    a = b;
-    b = temp;
-    return a;
-}
+// int & swapVar(int &a, int &b) {
+//     int temp = a;
+//     a = b;
+//     b = temp;
+//     return a;
+// }
 
 int main() {
     int x = 5, y = 10;
