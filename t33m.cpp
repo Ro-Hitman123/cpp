@@ -3,6 +3,6 @@ using namespace std;
 
 
 int main() {
-    cout<< "fast";
+    cout<< "mega fast";
     return 0;
 }
