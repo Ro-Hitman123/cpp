@@ -9,7 +9,7 @@ class Name{
 class District:public Name{
 	public:
 		void show(){
-			cout<<"My District Name is Kapilvastuuuuuuuuuug"<<endl;
+			cout<<"My District Name is Kapilvastuuuuuuuuuugjosfls"<<endl;
 		}
 };
 class Campus:public Name{
