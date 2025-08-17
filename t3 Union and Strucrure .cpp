@@ -16,12 +16,12 @@ typedef struct employee
     int salary;
 } ep;
 
-union student
-{
-    int id;
-    char name[100];
-    float roll_no;
-};
+// union student
+// {
+//     int id;
+//     char name[100];
+//     float roll_no;
+// };
 
 int main() {
 
@@ -35,23 +35,23 @@ int main() {
 
     // next
 
-    union student s1;
-    s1.id = 10;
-    cout << "ID: " << s1.id << endl;
+    // union student s1;
+    // s1.id = 10;
+    // cout << "ID: " << s1.id << endl;
 
-    // In c++ we can't directly assign a string to a char array
-    // We need to use strcpy function from cstring library
-    strcpy(s1.name, "Rohit");
-    cout << "Name: " << s1.name << endl;
+    // // In c++ we can't directly assign a string to a char array
+    // // We need to use strcpy function from cstring library
+    // strcpy(s1.name, "Rohit");
+    // cout << "Name: " << s1.name << endl;
 
-    s1.roll_no = 45;
-    cout << "Roll No: " << s1.roll_no << endl;
+    // s1.roll_no = 45;
+    // cout << "Roll No: " << s1.roll_no << endl;
 
-    // next
+    // // next
 
 
-    enum days {Sunday, Monday, Tuesday, Wednesday, Thursday, Friday, Saturday};
-    cout << "Enum value for Wednesday: " << Wednesday << endl;
+    // enum days {Sunday, Monday, Tuesday, Wednesday, Thursday, Friday, Saturday};
+    // cout << "Enum value for Wednesday: " << Wednesday << endl;
 
 return 0;
 }
