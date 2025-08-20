@@ -45,7 +45,7 @@ public:
 
 int main() {
     const int n = 10;
-    Result students[n]; // Array of 10 students
+    Result students[n];
 
     for (int i = 0; i < n; i++) {
         cout << "\nDetails for student " << i + 1 << ":" << endl;
