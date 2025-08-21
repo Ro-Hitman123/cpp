@@ -44,7 +44,7 @@ public:
 };
 
 int main() {
-    const int n = 10;
+    const int n = 10;//Array size
     Result students[n];
 
     for (int i = 0; i < n; i++) {
