@@ -10,8 +10,8 @@ public:
     Test(int i, int j) : a(i), b(j)
     {
         cout << "Constructor executed"<<endl;
-        cout << "Value of a is  "<<a<<endl;
-        cout << "Value of b is "<<b<<endl;
+        cout << "Value of a is = "<<a<<endl;
+        cout << "Value of b is =  "<<b<<endl;
     }
 };
 
