@@ -12,7 +12,7 @@ void func(T a){
 
 int main()
 {
-    func(4);  //Exact match takes the highest priorit
+    func(4);  //Exact match takes the highest priority
     return 0;
 }
 
