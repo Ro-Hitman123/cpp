@@ -3,6 +3,8 @@ using namespace std;
  
 void func(int a){
     cout<<"I am first func() "<<a<<endl;
+    cout<<"Hello"<<endl;
+
 }
  
 template<class T>
