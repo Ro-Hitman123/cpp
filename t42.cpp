@@ -7,17 +7,30 @@ private:
     int minutes;
 
 public:
-    // Constructor using member initializer list
+    // Default constructor
+    TIME() : hour(0), minutes(0) {}
+
+    // Parameterized constructor
     TIME(int h, int m) : hour(h), minutes(m) {}
 
-    void displayTime() {
+    // Conversion constructor: converts int (total minutes) to TIME
+    TIME(int totalMinutes) {
+        hour = totalMinutes / 60;
+        minutes = totalMinutes % 60;
+    }
+
+    void displayTime() const {
         cout << "Time: " << hour << " hour(s) and " << minutes << " minute(s)" << endl;
     }
 };
 
 int main() {
-    TIME t(2, 45);   // Initialize TIME object to 2 hours 45 minutes
-    t.displayTime();
+    int totalMinutes = 135;  // example total minutes
+
+    // Convert integer to TIME object using conversion constructor
+    TIME t = totalMinutes;
+
+    t.displayTime();  // Output: Time: 2 hour(s) and 15 minute(s)
 
     return 0;
 }
