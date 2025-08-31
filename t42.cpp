@@ -19,7 +19,7 @@ public:
         minutes = totalMinutes % 60;
     }
 
-    void displayTime() const {
+    void displayTime()  {
         cout << "Time: " << hour << " hour(s) and " << minutes << " minute(s)" << endl;
     }
 };
@@ -30,7 +30,7 @@ int main() {
     // Convert integer to TIME object using conversion constructor
     TIME t = totalMinutes;
 
-    t.displayTime();  // Output: Time: 2 hour(s) and 15 minute(s)
+    t.displayTime();  // Output: Time: 2 hour(s) and 15 minute
 
     return 0;
 }
