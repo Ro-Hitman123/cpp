@@ -40,7 +40,7 @@ Height operator+(const Height& h1, const Height& h2) {
 // Main function to test the code
 int main() {
     Height h1(1, 75); // 1 meter 75 cm
-    Height h2(2, 50); // 2 meter 50 cm
+    Height h2(2, 50); // 2 meter 50 cm..
 
     Height sum = h1 + h2;
 
