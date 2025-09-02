@@ -12,7 +12,10 @@ public:
         meter = m;
         centimeter = cm;
     }
-
+    Height(float m, int cm) {
+        meter = static_cast<int>(m);
+        centimeter = cm;
+    }
     // Friend function to overload the + operator
     friend Height operator+(const Height& h1, const Height& h2);
 
@@ -55,3 +58,5 @@ int main() {
 
     return 0;
 }
+
+//we must need to change centimeter to meter
