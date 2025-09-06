@@ -1,0 +1,1 @@
+//Templat class is used to create a generic class which can work with any data type
